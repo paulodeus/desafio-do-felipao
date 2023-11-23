@@ -1,26 +1,27 @@
-//# 1️⃣ Desafio Classificador de nível de Herói(**O Que deve ser utilizado**
+let nomeDoHeroi = "Paulo Das Terras Altas"
+let nivelXP = 9312
 
-//- Variáveis
-//- Operadores
-//- Laços de repetição
-//- Estruturas de decisões
-//
-//## Objetivo
-
-//Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
-
-//Se XP for menor do que 1.000 = Ferro
-//Se XP for entre 1.001 e 2.000 = Bronze
-//Se XP for entre 2.001 e 5.000 = Prata
-//Se XP for entre 6.001 e 7.000 = Ouro
-//Se XP for entre 7.001 e 8.000 = Platina
-//Se XP for entre 8.001 e 9.000 = Ascendente
-//Se XP for entre 9.001 e 10.000= Imortal
-//Se XP for maior ou igual a 10.001 = Radiante
-
-//## Saída
-
-//Ao final deve se exibir uma mensagem:
-//"O Herói de nome **{nome}** está no nível de **{nivel}**")
-
-console.log("Inicio do desafio")
+if (nivelXP <= 1000){
+    console.log(" O Herói de nome " +  nomeDoHeroi + " está no nível Ferro ")
+}
+if (nivelXP >= 1001 && nivelXP <= 2000){
+    console.log(" O Herói de nome " +  nomeDoHeroi + " está no nível Bronze")
+}
+if (nivelXP >= 2001 && nivelXP <= 5000){
+    console.log(" O Herói de nome " +  nomeDoHeroi + " está no nível Prata ")
+}
+if (nivelXP >= 5001 && nivelXP <= 7000){
+    console.log(" O Herói de nome  " +  nomeDoHeroi + " está no nível Ouro ")
+}
+if (nivelXP >= 7001 && nivelXP <= 8000){
+    console.log(" O Herói de nome " +  nomeDoHeroi + " está no nível Platina ")
+}
+if (nivelXP >= 8001 && nivelXP <= 9000){
+    console.log(" O Herói de nome " +  nomeDoHeroi + " está no nível Ascendente ")
+}
+if (nivelXP >= 9001 && nivelXP <= 10000){
+    console.log(" O Herói de nome " +  nomeDoHeroi + " está no nível Imortal ")
+}
+if (nivelXP >= 10001){
+    console.log(" O Herói de nome " +  nomeDoHeroi + " está no nível Radiante ")
+}
